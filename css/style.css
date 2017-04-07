@@ -1,0 +1,112 @@
+/**************************************
+Table of Contents
+
+
+***************************************/
+
+
+/* Core Layout */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  max-height: 50px;
+  background: #9F3548;
+  padding: 10px;
+}
+
+.logo {
+  float: left;
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+nav {
+  float: right;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #000;
+  color: #ccc;
+  min-height: 100px;
+}
+
+/* section formatting */
+
+section {
+  min-height: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+section.main:nth-child(even) {
+  background: #ddd;
+}
+
+section.main:nth-child(odd) {
+  background: #748BA7;
+}
+
+section.main article {
+}
+
+section.main h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+section.main > article {
+  padding: 1em 10%;
+}
+
+.description .desc {
+  border-radius: 6px;
+  background-color: #ccc;
+}
+
+
+
+/* article formatting */
+article.basic {
+  padding: .5em;
+  font-size: 1.2em;
+}
+
+.page-links {
+  font-size: 1.25em;
+}
+
+/* modal formatting */
+header.modal-header {
+
+}
+
+footer.modal-footer {
+  background-color: #748BA7;
+}
+
+/* Text formatting */
+
+section article span.big-heading {
+  font-size: 1.4em;
+}
+
+.call-out-text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*span.call-out-text span.glyphicon {
+  font-size: 0.7em;
+}*/
