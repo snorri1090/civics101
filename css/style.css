@@ -107,6 +107,13 @@ section article span.big-heading {
   font-weight: bold;
 }
 
-/*span.call-out-text span.glyphicon {
-  font-size: 0.7em;
-}*/
+img#potus-ad {
+  width: 200px;
+  text-align: center;
+  margin-top: .5em;
+}
+
+img#job-description {
+  width: 85%;
+  vertical-align: middle;
+}

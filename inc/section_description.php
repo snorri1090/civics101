@@ -2,7 +2,9 @@
   <article>
     <h1>Job Description</h1>
     <div class="row">
-      <div class="col-md-6 text-center">image</div>
+      <div class="col-md-6 text-center">
+        <img src="images/job-description.png" id="job-description">
+      </div>
         <div class="col-md-6 desc">
           <article class="basic">
             <p>The President of the United States has fewer roles than you might think. However, those roles are a <span class="call-out-text">BIG DEAL! </span>.</p>
@@ -17,6 +19,10 @@
               <li><a href="#desc-two">Manage the executive departments</a></li>
               <li><a href="#desc-three">Commander-in-Chief of the U.S. Military</a></li>
             </ol>
+
+            <div class="wdtcs">
+              What does the Constitution say?
+            </div>
           </article>
       </div>
     </div>
